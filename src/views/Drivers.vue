@@ -131,6 +131,10 @@
                     :src="
                       'https://alsayar-backend-vwmk7.ondigitalocean.app' + row.profile_img
                     "
+                    @error="
+                      $event.target.src =
+                        'https://www.pngkey.com/png/detail/115-1150152_default-profile-picture-avatar-png-green.png'
+                    "
                   />
                 </td>
                 <td>{{ row.name }}</td>
