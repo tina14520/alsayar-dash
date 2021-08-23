@@ -1,0 +1,28 @@
+.spinner--rotate-square-2 {
+    &::after {
+        background: $primary;
+    }
+}
+
+.loading-data {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.no-results {
+    text-align: center;
+    display: felx;
+    align-items: center;
+    justify-content: center;
+}
+.insert {
+    margin-bottom: 0;
+  }
+  .spinner-inner {
+      &::after, &::before {
+        background: $white !important;
+      }
+  }
